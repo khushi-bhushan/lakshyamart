@@ -1,16 +1,103 @@
-html,
-body {
-  padding: 0;
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
 }
-
-a {
-  color: inherit;
+.footer{
+  margin-top: 2.5%;
+  height: 58px;
+  width: 1280px;
+  background-color: rgb(12, 12, 59);
+}
+.Nav{
+  height: 90px;
+  width: 1280px;
+  background-color: rgb(12, 12, 59);
+}
+.head{
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-weight: 1%;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 14%;
+  margin-top: -5.5%;
+  margin-left: -5%;
+}
+a{
+  color: white;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+  font-size: 17px;
+  display: inline-flex;
+  padding: 25px 45px;
+  margin-left: 3%;
+}
+.logo{
+  padding-top: 1%;
+  margin-left: 1.5%;
+}
+.sales{
+  margin-top: 7%;
+  margin-left: 22%;
+}
+.sales_text a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+  font-size: 19px;
+  margin-top: 1%;
+  margin-left: -6%;
+  color: rgb(12, 12, 59);
+}
+.analytics{
+  margin-top: -13.5%;
+  margin-left: 45%;
+}
+.analytics_text a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+  font-size: 19px;
+  margin-top: .4%;
+  margin-left: -4.9%;
+  color: rgb(12, 12, 59);
 }
 
-* {
-  box-sizing: border-box;
+.admin{
+  margin-top: -13.5%;
+  margin-left: 70%;
+}
+.admin_text a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+  font-size: 19px;
+  margin-top: -.5%;
+  margin-left: -18%;
+  color: rgb(12, 12, 59);
+}
+
+.finance{
+  margin-top: 1%;
+  margin-left: 21%;
+}
+.finance_text a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+  font-size: 19px;
+  margin-top: -10%;
+  margin-left: -2.5%;
+  color: rgb(12, 12, 59);
+}
+
+.catalogue{
+  margin-top: -13%;
+  margin-left: 45%;
+}
+.catalogue_text a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 150;
+  font-size: 19px;
+  margin-top: .3%;
+  margin-left: -10%;
+  color: rgb(12, 12, 59);
 }
